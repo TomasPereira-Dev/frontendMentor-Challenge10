@@ -1,0 +1,49 @@
+@media(max-width: 425px){
+
+    body{
+        padding: 1em;
+    }
+
+    header{
+        margin-bottom: 1em;
+        justify-content: space-between;
+    }
+
+    .navbar-container{
+        display: none;
+    }
+
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .intro-section > article{
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    .intro-section > picture > img {
+        height: auto;
+    }
+
+    .intro-section > article > h1{
+        font-size: 2em;
+        max-width: 16ch;
+    }
+
+    .intro-section > article > p{
+        font-size: 1em;
+    }
+
+    .intro-section > article > a {
+        padding: .8em 1.5em;
+    }
+
+    .clients-logo-container{
+        margin-top: 2em;
+    }
+}
