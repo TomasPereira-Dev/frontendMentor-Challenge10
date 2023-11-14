@@ -67,6 +67,10 @@ header{
     display: flex;
 }
 
+.features-menu-container:hover > p::after, .company-menu-container:hover > p::after{
+   content: url("./images/icon-arrow-up.svg");
+}
+
 .list{
     position: absolute;
     display: none;

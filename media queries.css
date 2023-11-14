@@ -5,6 +5,7 @@
     }
 
     header{
+        position: relative;
         margin-bottom: 1em;
         justify-content: space-between;
     }
@@ -45,5 +46,42 @@
 
     .clients-logo-container{
         margin-top: 2em;
+    }
+
+    .mobile-navbar-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        margin-left: 0;
+        padding-left: 1em;
+        top: 0;
+        right: 0;
+        width: 65%;
+        height: 100vh;
+        background-color: hsl(0, 0%, 98%);
+        z-index: 999;
+    }
+
+    .close-btn{
+        align-self: flex-end;
+    }
+
+    .list{
+        position: relative;
+        border: none;
+        box-shadow: none;
+    }
+
+    .login-links-container{
+        margin-top: 2em;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    .register-btn{
+        width: 100%;
+        text-align: center;
     }
 }
